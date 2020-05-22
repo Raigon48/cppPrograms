@@ -8,7 +8,7 @@ int main() {
     
     cout << "Enter your age : \n";
     cin >> age;
-    cin.ignore(10, '\n');
+    cin.ignore(1, '\n');
     cout << "Enter your name : \n";
     getline(cin, name);
    

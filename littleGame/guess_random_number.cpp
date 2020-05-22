@@ -13,7 +13,8 @@ void play_game()
     while(true) {
         std::cin >> guess;
         count++;
-        if(guess == random) {
+        if(guess == random) 
+        {
             std::cout << "You guessed it right in " << count << std::endl;  
             return;
         }
@@ -42,7 +43,7 @@ int main()
         switch(choice)
         {
             case 0 :
-                std::cout << "Thanks for nothing" << std::endl;
+                std::cout << "See you Later!" << std::endl;
                 return 0;
             case 1 : 
                 std::cout << "Yo, let's play" << std::endl;
